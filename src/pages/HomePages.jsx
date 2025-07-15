@@ -8,7 +8,7 @@ const HomePages = () => {
     <> 
     <Hero title  = {"React devs"} subtitle = {"You will Find Jobs tailored to your skills"}/>
     <HomeCards/>
-    <JobListings/>
+    <JobListings isHome={true} />
     <Viewalljobs/>
     </>
   )
