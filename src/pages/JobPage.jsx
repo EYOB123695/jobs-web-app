@@ -18,7 +18,7 @@ deleteJob(jobId);
 toast.success('Job Deleted Succesfully');
 navigate('/jobs');
 
-}
+};
 return  (
     <>
    {/* <!-- Go Back --> */}

@@ -32,11 +32,12 @@ const AddJobPage = ({addjobssubmit}) => {
         },
     };
         addjobssubmit(newJob);
+        
         toast.success('Post Added Succesfully');
         return navigate('/jobs');
         
     
-  }
+  };
 
   return (
     

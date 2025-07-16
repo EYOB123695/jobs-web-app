@@ -69,6 +69,90 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
+    },
+    {
+      "id": "ef74",
+      "title": "new job",
+      "type": "Full-Time",
+      "location": "Addis Ababa",
+      "description": "newer job",
+      "salary": "Under $50K",
+      "company": {
+        "name": "Eskalate",
+        "description": "newer job",
+        "contactEmail": "eyobtesfaye2002@gmail.com",
+        "contactPhone": "0953850592"
+      }
+    },
+    {
+      "id": "0eea",
+      "title": "newr",
+      "type": "Full-Time",
+      "location": "Eskalate",
+      "description": "new",
+      "salary": "$125K - 150K",
+      "company": {
+        "name": "new",
+        "description": "very updated",
+        "contactEmail": "eyobtesfaye2002@gmail.com",
+        "contactPhone": "0953850592"
+      }
+    },
+    {
+      "id": "1f8a",
+      "title": "new job",
+      "type": "Full-Time",
+      "location": "Addis Ababa",
+      "description": "very updated job",
+      "salary": "Under $50K",
+      "company": {
+        "name": "Eskalate",
+        "description": "newer  job",
+        "contactEmail": "eyobtesfaye2002@gmail.com",
+        "contactPhone": "0953850592"
+      }
+    },
+    {
+      "id": "464e",
+      "title": "new job ",
+      "type": "Full-Time",
+      "location": "Addis Ababa",
+      "description": "very good job",
+      "salary": "Under $50K",
+      "company": {
+        "name": "Eskalate",
+        "description": "newer job here",
+        "contactEmail": "eyobtesfaye2002@gmail.com",
+        "contactPhone": "0953850592"
+      }
+    },
+    {
+      "id": "a517",
+      "title": "new",
+      "type": "Full-Time",
+      "location": "Addis Ababa",
+      "description": "very good",
+      "salary": "Under $50K",
+      "company": {
+        "name": "Eskalate",
+        "description": "new job",
+        "contactEmail": "eyobtesfaye2002@gmail.com",
+        "contactPhone": "0953850592"
+      }
+    },
+    {
+      "id": "316a",
+      "title": "new",
+      "type": "Full-Time",
+      "location": "Addis Ababa",
+      "description": "very good",
+      "salary": "$60K - 70K",
+      "company": {
+        "name": "Eskalate",
+        "description": "newer",
+        "contactEmail": "eyobtesfaye2002@gmail.com",
+        "contactPhone": "0953850592"
+      }
     }
   ]
 }

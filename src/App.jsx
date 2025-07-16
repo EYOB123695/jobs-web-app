@@ -7,6 +7,7 @@ import JobsPage from './pages/JobsPage';
 import NotFound from './pages/NotFound';  
 import JobPage , {JobLoader} from './pages/JobPage';
 import AddJobPage from './pages/AddJobPage';
+import { ToastContainer } from 'react-toastify';
 
 
 
