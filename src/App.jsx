@@ -7,6 +7,7 @@ import JobsPage from './pages/JobsPage';
 import NotFound from './pages/NotFound';  
 import JobPage , {JobLoader} from './pages/JobPage';
 import AddJobPage from './pages/AddJobPage';
+import EditJob from './pages/EditJob';
 import { ToastContainer } from 'react-toastify';
 
 
@@ -29,13 +30,30 @@ const App = () => {
    });
   return;
 }
+
+const updateJob = async (job) => {
+    const res = await fetch(`/api/jobs/${job.id}`, {
+      method: 'PUT',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(job),
+    });
+    return;
+  };
+
   
 
 const router  = createBrowserRouter (
   createRoutesFromElements (
     <Route path="/" element = {<MainLayout/>}>
     <Route index element =  {<HomePages/>}/> 
-    <Route path = "/jobs/:id" element =  {<JobPage deleteJob = {deleteJob}/>} loader = {JobLoader}/> 
+  <Route
+          path='/edit-job/:id'
+          element={<EditJob updateJobSubmit={updateJob} />}
+          loader={JobLoader}
+        />
+     <Route path = "/jobs/:id" element =  {<JobPage deleteJob = {deleteJob}/>} loader = {JobLoader}/> 
     <Route path = "/jobs" element =  {<JobsPage/>}/> 
     < Route path = "/add-job" element =  {<AddJobPage addjobssubmit = {addJob}/>}/> 
     <Route path = "*" element =  {<NotFound/>}/> 
